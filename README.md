@@ -8,7 +8,7 @@ This repo contains the backend Rails API of the Magic Carpet app. It serves json
 1. Clone down the repo:
 
   ```shell
-  git clone git@github.com:jude-lawson/magic-carpet.git
+  git clone git@github.com:hmesander/magic-carpet.git
   ```
 
 2. Install necessary dependencies:
@@ -28,6 +28,9 @@ This repo contains the backend Rails API of the Magic Carpet app. It serves json
   ```shell
     rspec
   ```
+
+  Note:  Some tests will fail because you need environmental variables (yelp and lyft api keys) that cannot be published on GitHub for obvious security reasons.
+
 <hr>
 
 ## Running the Server Locally
