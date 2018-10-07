@@ -1,6 +1,6 @@
 # Magic Carpet (Rails JSON API)
 
-This repo contains the backend Rails API of the Magic Carpet app. It serves json intended to be consumed by the [Magic Carpet Mobile App](https://github.com/jude-lawson/magic-carpet-mobile).
+This repo contains the backend Rails API of the Magic Carpet app. It serves JSON intended to be consumed by the [Magic Carpet Front-End App](https://github.com/hmesander/magic-carpet-frontend).
 
 <hr>
 
@@ -44,3 +44,11 @@ To see your code in action locally, you need to fire up a development server. Us
 Once the server is running, visit API endpoints in your browser:
 
 * `http://localhost:3000/` to run your application.
+
+## Running the Server Locally with the [Magic Carpet Front-End App](https://github.com/hmesander/magic-carpet-frontend):
+
+  ```shell
+  rails s -p 3001
+  ```
+
+Follow set-up instructions in the front-end repo README to run the React App on port 3000.
