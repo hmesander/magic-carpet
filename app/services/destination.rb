@@ -1,4 +1,5 @@
 class Destination
+  attr_accessor :reviews
   
   attr_reader :name,
               :rating,
@@ -10,9 +11,12 @@ class Destination
               :state,
               :zip_code,
               :distance,
-              :categories
+              :categories,
+              :id
+  
 
   def initialize(information)
+    @id = information[:id]
     @name = information[:name]
     @price = information[:price]
     @rating = information[:rating]
@@ -24,6 +28,7 @@ class Destination
     @state = information[:location][:state]
     @zip_code = information[:location][:zip_code]
     @distance = information[:distance]
+    @reviews = information[:reviews]
   end
 
   def set_categories(rest_categories)

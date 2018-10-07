@@ -1,0 +1,51 @@
+{
+  "businesses": [
+      {
+          "id": "k1mGLPBSaUhZKem1KrXLJQ",
+          "alias": "prohibition-denver",
+          "name": "Prohibition",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/gwd6sIWrVxxdgzGloQ7peA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/stout-street-social-denver-2?adjust_creative=3hvNsDFWy5fCdF-rhzEhWQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=3hvNsDFWy5fCdF-rhzEhWQ",
+          "review_count": 744,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "sushi",
+                  "title": "Sushi Bars"
+              },
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              }
+          ],
+          "rating": 4,
+          "coordinates": {
+              "latitude": 39.7441431,
+              "longitude": -104.9947764
+          },
+          "transactions": [
+              "restaurant_reservation"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "1400 Stout St",
+              "address2": null,
+              "address3": "",
+              "city": "Denver",
+              "zip_code": "80202",
+              "country": "US",
+              "state": "CO",
+              "display_address": [
+                  "1400 Stout St",
+                  "Denver, CO 80202"
+              ]
+          },
+          "phone": "+17202149100",
+          "display_phone": "(720) 214-9100",
+          "distance": 1873.847253440999
+      }]
+        }

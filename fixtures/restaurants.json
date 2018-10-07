@@ -64,8 +64,8 @@
             ],
             "rating": 4.5,
             "coordinates": {
-                "latitude": 39.7257806690032,
-                "longitude": -104.979706093254
+                "latitude": 39.7257,
+                "longitude": -104.9797
             },
             "transactions": [],
             "price": "$$",
@@ -633,8 +633,8 @@
             ],
             "rating": 4,
             "coordinates": {
-                "latitude": 39.748375254531,
-                "longitude": -105.000548015939
+                "latitude": 39.7483,
+                "longitude": -105.0005
             },
             "transactions": [
                 "delivery",

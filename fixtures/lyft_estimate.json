@@ -1,0 +1,18 @@
+{
+  "cost_estimates": [
+    { "currency": "USD", 
+       "ride_type": "lyft",
+        "display_name": "Lyft",  
+        "primetime_percentage": "25%",
+          "primetime_confirmation_token": null,
+         "cost_token": null,
+          "price_quote_id": "17f87a53f3917dcc0cfc2a74b7bf267e9b97d37539a1f9b2310a81f00bc09ca4",
+          "is_valid_estimate": true,
+          "estimated_duration_seconds": 1626,
+            "estimated_distance_miles": 5.52,
+            "estimated_cost_cents_min": 1052,
+            "estimated_cost_cents_max": 1755,
+            "can_request_ride": true  
+          } 
+            ] 
+          }

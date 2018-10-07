@@ -1,0 +1,47 @@
+{
+    "reviews": [
+        {
+            "id": "4HC1k-KBxAPczu_giSCE9Q",
+            "url": "https://www.yelp.com/biz/prohibition-denver?hrid=4HC1k-KBxAPczu_giSCE9Q&adjust_creative=3hvNsDFWy5fCdF-rhzEhWQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=3hvNsDFWy5fCdF-rhzEhWQ",
+            "text": "On a weekend trip to Denver we found them on Yelp and am so happy we did! The atmosphere was totally casual and friendly very low key. Our server Anton was...",
+            "rating": 5,
+            "time_created": "2018-09-22 17:27:35",
+            "user": {
+                "id": "5KF-uP9WqzdK-Z5womhSXg",
+                "profile_url": "https://www.yelp.com/user_details?userid=5KF-uP9WqzdK-Z5womhSXg",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/photo/i2ayLlazdPlXPXR3o_of5w/o.jpg",
+                "name": "Debra C."
+            }
+        },
+        {
+            "id": "E9iGKly-ZWa11yWZfKc6wA",
+            "url": "https://www.yelp.com/biz/prohibition-denver?hrid=E9iGKly-ZWa11yWZfKc6wA&adjust_creative=3hvNsDFWy5fCdF-rhzEhWQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=3hvNsDFWy5fCdF-rhzEhWQ",
+            "text": "This place was awesome! \nWe had a variety of drinks - beer and cocktails. All were good! I had a Strawberry Fields cocktail and I basically had to share...",
+            "rating": 5,
+            "time_created": "2018-08-19 16:48:44",
+            "user": {
+                "id": "JjNSVZtKisTjSavwWzuJQg",
+                "profile_url": "https://www.yelp.com/user_details?userid=JjNSVZtKisTjSavwWzuJQg",
+                "image_url": "https://s3-media4.fl.yelpcdn.com/photo/FW9n8IRduHuNlo7V0cproA/o.jpg",
+                "name": "Kristen B."
+            }
+        },
+        {
+            "id": "kCQBGQ98Q5BZOGin7w6AEA",
+            "url": "https://www.yelp.com/biz/prohibition-denver?hrid=kCQBGQ98Q5BZOGin7w6AEA&adjust_creative=3hvNsDFWy5fCdF-rhzEhWQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=3hvNsDFWy5fCdF-rhzEhWQ",
+            "text": "Prohibition was within walking distance of my hotel during a recent recreational stay in Denver, so I gave it a try. It ended up being one of my better life...",
+            "rating": 4,
+            "time_created": "2018-08-13 16:35:34",
+            "user": {
+                "id": "WfMTpU2GOe4N3BEpWZu2fg",
+                "profile_url": "https://www.yelp.com/user_details?userid=WfMTpU2GOe4N3BEpWZu2fg",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/photo/r9uZkSt6Rnvo1q2W3TSdYQ/o.jpg",
+                "name": "Nathan W."
+            }
+        }
+    ],
+    "total": 495,
+    "possible_languages": [
+        "en"
+    ]
+}

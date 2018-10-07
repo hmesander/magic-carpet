@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_30_053625) do
+ActiveRecord::Schema.define(version: 2018_10_06_162403) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "adventures", force: :cascade do |t|
+    t.string "start_lat"
+    t.string "start_long"
+    t.string "destination"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "setting_id"
+    t.index ["setting_id"], name: "index_adventures_on_setting_id"
+  end
 
   create_table "settings", force: :cascade do |t|
     t.integer "max_radius"
@@ -24,6 +34,7 @@ ActiveRecord::Schema.define(version: 2018_07_30_053625) do
     t.integer "max_rating", default: 5
     t.integer "max_price", default: 4
     t.integer "min_price", default: 1
+    t.string "price"
   end
 
   create_table "users", force: :cascade do |t|
@@ -34,4 +45,5 @@ ActiveRecord::Schema.define(version: 2018_07_30_053625) do
     t.index ["setting_id"], name: "index_users_on_setting_id"
   end
 
+  add_foreign_key "adventures", "settings"
 end
